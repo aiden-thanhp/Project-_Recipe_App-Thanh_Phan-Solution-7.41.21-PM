@@ -41,6 +41,7 @@ function RecipeCreate({ createRecipe }) {
                 placeholder="Name"
                 onChange={handleNameChange}
                 value={name}
+                required
               />
             </td>
             <td>
@@ -51,6 +52,7 @@ function RecipeCreate({ createRecipe }) {
                 placeholder="Cuisine"
                 onChange={handleCuisineChange}
                 value={cuisine}
+                required
               />
             </td>
             <td>
@@ -61,6 +63,7 @@ function RecipeCreate({ createRecipe }) {
                 placeholder="URL"
                 onChange={handlePhotoChange}
                 value={photo}
+                required
               />
             </td>
             <td>
@@ -71,6 +74,7 @@ function RecipeCreate({ createRecipe }) {
                 placeholder="Ingredients"
                 onChange={handleIngredientsChange}
                 value={ingredients}
+                required
               />
             </td>
             <td>
@@ -81,6 +85,7 @@ function RecipeCreate({ createRecipe }) {
                 placeholder="Preparation"
                 onChange={handlePreparationChange}
                 value={preparation}
+                required
               />
             </td>
             <td>
